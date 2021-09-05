@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(form_img.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+.container{
+    width: 400px;
+    height: 430px;
+    margin: 8% auto;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+    /* color: #777; */
+}
+
+.container form{
+    width: 280px;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    transition: 0.5s;
+}
+
+form input{
+    /* width: 60%; */
+    padding: 5px 5px;
+    margin: 6px 0;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #999;
+    background: transparent;
+}
+
+#next1{
+    padding: 5px 10px;;
+    margin-top: 25px;
+    margin-left: 130px;
+    cursor: pointer;
+}
+
+#next2{
+    padding: 5px 10px;;
+    margin-top: 25px;
+    margin-left: 110px;
+    cursor: pointer;
+}
+
+#back1{
+    padding: 5px 10px;;
+    margin-top: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#next3{
+    padding: 5px 10px;;
+    margin-top: 25px;
+    margin-left: 110px;
+    cursor: pointer;
+}
+
+#back2{
+    padding: 5px 10px;;
+    margin-top: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#back3{
+    padding: 5px 10px;;
+    margin-top: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#form2{
+    left: 450px;
+}
+
+#form3{
+    left: 450px;
+}
+
+#form4{
+    left: 450px;
+}
+
+#p{
+    font-weight: 600;
+}
+
+#head1 {
+    margin-top: -40px;
+    margin-bottom: 15px;
+}
+
+#sub{
+    padding: 5px 10px;;
+    margin-top: 25px;
+    margin-left: 110px;
+    cursor: pointer;
+}
